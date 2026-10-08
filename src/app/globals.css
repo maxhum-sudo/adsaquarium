@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+html,
+body {
+  height: 100%;
+  background: #071018;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}
